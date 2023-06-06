@@ -1,0 +1,144 @@
+ 
+<!DOCTYPE html><html lang="vi"><head>
+  
+<title>Page not found</title>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  
+  
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  
+<meta name="description" content=" "/>
+<meta name="keywords" content=" "/>
+<meta name="Author" content="PMQLNS" />
+<meta name="copyright" content="PMQLNS" />
+  
+  
+  
+<meta property="fb:app_id" content="1396997063955601"/>
+  
+  
+  
+  
+  
+<meta property="og:image" content="http://vhv.vhrm.vn/upload/20713/20180716/logovhv.png"/>
+<link rel="image_src" href="http://vhv.vhrm.vn/upload/20713/20180716/logovhv.png"/>
+  
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="vhv.vhrm.vn" />
+<meta property="og:title" content="Page not found" />
+<meta property="og:description" content=" " />
+  
+  
+<link href="/App/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+<link rel="preload" href="/css/1.5211054/2003675/3322/style.css?1054" as="style">
+<link rel="preload" href="/3rdparty/font-awesome-5.13.1/css/all.min.css" as="style">
+<link type="text/css" rel="stylesheet" href="/css/1.5211054/2003675/3322/style.css?1054"/>
+  
+  
+<link rel="preload" as="script" href="/publish/js/lib2-1.521.min.js?1054">
+<link rel="preload" href="/3rdparty/font-awesome-5.13.1/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/3rdparty/font-awesome-5.13.1/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/3rdparty/font-awesome-5.13.1/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" type="text/css" href="/3rdparty/font-awesome-5.13.1/css/all.min.css"/>
+  
+  
+   
+  
+</head><body  style="padding:0px;margin:0px;" >
+  
+  
+ <div class="region-top"><div id="module1" class="ModuleWrapper" ><div class="error-box"> <div class="error-body text-center"> <h1>404</h1> <h3 class="margin-top-0 text-uppercase"><i class="fa fa-exclamation-triangle text-yellow"></i> Không tìm thấy trang!</h3> <p class="text-muted text-uppercase mt-30 mb-30">Xin lỗi! Liên kết không tồn tại hoặc nội dung không hợp lệ.</p> <a href="https://vhv.vhrm.vn/?page=home" class="btn btn-info btn-rounded mb-40">Quay lại trang chủ</a>  </div></div><style>.error-box{ height: 100%; position: fixed; background:#fff; width: 100%;}
+.error-box .error-body {  padding-top: 5%;  padding-left:2%;  padding-right:2%;}
+.error-box h1 {  font-size: 210px;  font-weight: 900;  line-height: 210px;   }
+.error-box .text-muted {  color: #99abb4!important;}
+.error-box .btn-rounded {  border-radius: 60px;  padding: 7px 18px;}
+@media screen and (max-width:544px){  .error-box h1 {    font-size: 120px;  font-weight: 900;  line-height: 120px;  }
+}
+</style>
+</div></div><div id="whole-page">    <div id="page-header"></div> <div id="page-content"></div> <div id="page-footer"></div></div><div class="region-bottom"></div> 
+<div id="footer-editer"></div>
+  
+  
+</body>
+<!--[if lt IE 9]>
+<script src="/3rdparty/Bootstrap/js/ie8-responsive-file-warning.js"></script>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+<script src="/3rdparty/fix_ie/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.mask,img');
+</script>
+<![endif]-->
+  
+<script type="text/javascript">
+rootURL = location.protocol+'//'+location.host+'/';
+staticURL = '/';
+</script>
+<script type="text/javascript" src="/publish/js/lib2-1.521.min.js?1054"></script>
+  
+<script type="text/javascript">
+  
+if(window.vhvInit)
+{
+vhvInit();
+}
+$.extend(VHV,{
+pageId: "404",
+serverTime: 1685953230,
+domainRoot: '/',
+defaultCurrency: 'VNĐ',
+defaultNumberFormat: '',
+language: 'vi',
+version:'1.521',
+clientVersion:'1054',
+pageVersion:'',
+ckeVersion:'4.15.0',
+  
+loadingImage:'/App/images/loading.gif',
+site:'2003675',
+href:'?'+decode64('cGFnZT00MDQ='),
+defaultPortalPath:'',
+securityToken: 'dff8dc822283a7f25ae8dcd5133fdc33fb62c59751880e2a8ccea846fb5e3b0f',
+groupId: ''
+  
+  
+  
+  
+,chatServer:"https:\/\/chat.vhv.vn" 
+  
+  
+,currentAccountId: ''
+});
+$.extend(VHV.App, {
+portal:'2003675',
+site:'2003675'
+});
+VHV.init();
+VHV.User = {
+id: 'guest'
+  
+};
+  
+  
+  
+  
+  
+  
+  
+  
+</script>
+  
+  
+  
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/3rdparty/Bootstrap/dist/css/bootstrap-ie7.css?v=1.521"/>
+<![endif]-->
+</html>
+ 

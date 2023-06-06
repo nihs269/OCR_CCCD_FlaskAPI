@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block main %}
+<head>
+    <h3>Chọn ảnh căn cước công dân bạn nhé</h3>
+    <h4><br/></h4>
+</head>
+
+<div class="container">
+    <form method="POST" action="/extract" enctype = "multipart/form-data">
+        <div class="form-group">
+            <input type="file" class="form-control form-control-lg" name="myfile">
+            <br/>
+            <br/>
+            <button type="reset" class="btn btn-info"><i class="fa fa-eraser"></i> Xóa</button>
+            <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Kiểm tra</button>
+
+        </div>
+    </form>
+</div>
+<br/>
+<footer class="small text-center text-muted">
+    Made by TN
+</footer>
+{% endblock %}

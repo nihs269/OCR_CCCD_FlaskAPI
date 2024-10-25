@@ -3,29 +3,57 @@
 <head>
     <h3>Chọn ảnh căn cước công dân bạn nhé</h3>
     <h4><br/></h4>
+    <style>
+        table { width: 50%; border-collapse: collapse; margin-top: 20px; }
+        table, th, td { border: 1px solid black; padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
 </head>
+<body>
+    <div class="container">
+        <form method="POST" action="/extract" enctype = "multipart/form-data">
+            <div class="form-group">
+                <input type="file" class="form-control form-control-lg" name="myfile">
+                <br/>
+                <br/>
+                <button type="reset" class="btn btn-info"><i class="fa fa-eraser"></i> Xóa</button>
+                <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Kiểm tra</button>
 
-<div class="container">
-    <form method="POST" action="/extract" enctype = "multipart/form-data">
-        <div class="form-group">
-            <input type="file" class="form-control form-control-lg" name="myfile">
-            <br/>
-            <br/>
-            <button type="reset" class="btn btn-info"><i class="fa fa-eraser"></i> Xóa</button>
-            <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Kiểm tra</button>
-
-        </div>
-    </form>
-</div>
-<br/>
-<div class="container">
-    <div class="alert alert-success" role="alert">
-        <p class="alert-heading">Kết quả: </p>
-        <div>{{results}}</div>
-        <br/>
+            </div>
+        </form>
     </div>
-</div>
-<br/>
+    <br/>
+    <div class="container">
+        <div class="alert alert-success" role="alert">
+            <p class="alert-heading">Kết quả: </p>
+            <img src="{{ img_path }}">
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>Value</th>
+                </tr>
+                {% for key, value in results.items() %}
+                <tr>
+                    <td>{{ key }}</td>
+                    <td>
+                        {% if value is iterable and not value is string %}
+                            <ul>
+                                {% for item in value %}
+                                    <li>{{ item }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% else %}
+                            {{ value }}
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+            <br/>
+        </div>
+    </div>
+    <br/>
+</body>
 <footer class="small text-center text-muted">
     Made by TN
 </footer>

@@ -63,8 +63,6 @@ class ReadInfo:
 
         fields = ["id", "full_name", "date_of_birth", "sex", "nationality", "place_of_origin", "place_of_residence",
                   "date_of_expiry", "qr_code"]
-        # fields = ["id", "name", "birthDay", "birthPlace", "partyDate", "official", "issuePlace",
-        #           "date", "man", "woman"]
 
         user_info_dict = {}
         for field in fields:

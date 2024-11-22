@@ -26,6 +26,7 @@ ocr_predictor = Predictor(config_vietocr)
 
 # Load Yolo model
 scan_weight = 'Models/cccdYoloV7.pt'
+# scan_weight = 'Models/TheDang.pt'
 imgsz, stride, device, half, model, names = get_dictionary.load_model(scan_weight)
 read_info = ReadInfo(imgsz, stride, device, half, model, names, ocr_predictor)
 
